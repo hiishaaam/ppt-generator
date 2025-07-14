@@ -4,10 +4,13 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    /* A beautiful, deep blue gradient for the background */
+    @apply bg-[#020617] bg-gradient-to-tr from-[#020617] via-[#0f172a] to-[#1e293b];
 }
 
 .spinner {
-    border-top-color: #3498db;
+    /* Updated to a vibrant accent color */
+    border-top-color: #818cf8; /* indigo-400 */
     animation: spin 1s linear infinite;
 }
 
